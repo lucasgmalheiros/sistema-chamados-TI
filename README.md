@@ -18,7 +18,7 @@ Todas as funcionalidades resumidas acima estão descritas no diagrama de casos d
 ## Desenvolvimento
 
 As ferramentas utilizadas foram: Figma, para design da interface gráfica, MySQL, como banco de dados, e Python, para programação
-de todo o software. O projeto Tkinter-Designer (https://github.com/ParthJadhav/Tkinter-Designer) 
+de todo o software. O projeto [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer) 
 foi fundamental para agilizar a modelagem gráfica da interface em Python, gerando os códigos das telas pela biblioteca Tkinter,
 integrando-se à API do Figma.
 

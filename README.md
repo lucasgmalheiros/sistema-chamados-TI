@@ -1,7 +1,6 @@
 # Sistema de Chamados de Serviços em TI
 
-Esse protótipo foi desenvolvido para a matéria de sistemas de informações gerencias 
-do curso de engenharia de produção da Universidade Federal de São Carlos (UFSCar).
+Esse protótipo foi desenvolvido como projeto de conclusão da disciplina de sistemas de informações gerenciais do curso de engenharia de produção da Universidade Federal de São Carlos (UFSCar).
 
 ## Motivação e Funcionalidades
 
@@ -23,7 +22,38 @@ foi fundamental para agilizar a modelagem gráfica da interface em Python, geran
 integrando-se à API do Figma.
 
 ## Funcionamento
-Para utilizar o protótipo basta criar um banco de dados em MySQL com o modelo físico presente no arquivo
-**conecta_banco.py** e realizar a conexão com o Python, alterando os argumentos contidos na funcão **ConectaBanco**.
-A partir daí, basta executar **telas.py** para utilizar a interface gráfica, os usuários já podem ser cadastrados pela GUI 
+Para utilizar o protótipo basta criar um banco de dados em MySQL com o modelo físico presente no arquivo [modelo-banco](modelo-banco.txt) e realizar a conexão com o Python, alterando os argumentos contidos na funcão [ConectaBanco](conecta_banco.py).
+A partir daí, basta executar [telas.py](telas.py) para utilizar a interface gráfica, os usuários já podem ser cadastrados pela GUI 
 e todas as informações do sistema serão atualizadas no banco de dados.
+
+## Telas
+Alguns exemplos de telas e funcionamento da aplicação.
+
+### Tela de login geral
+Todos os usuários podem se cadastrar ou realizar login por essa tela. De acordo com a função cadastrada, o usuário é direcionado para uma tela principal com as funcionalidades disponíveis para seu cargo.
+![Tela de Login](img/login.png)
+
+
+### Solicitantes
+#### Tela principal
+![Tela inicial solicitante](img/main-solicitante.png)
+
+#### Acompanhar solicitações
+Apresenta as solicitações em aberto realizadas apenas por este usuário.
+![Solicitações solicitantes](img/solicitacoes-solicitante.png)
+
+### Técnicos de informática
+#### Tela principal
+![Tela inicial solicitante](img/main-tecnico.png)
+
+#### Acompanhar solicitações
+Apresenta todas as solicitações em aberto (realizadas por todos os usuários) ordenadas de acordo com a prioridade. 
+![Solicitações técnicos](img/solicitacoes-tecnico.png)
+
+### Coordenador de informática
+#### Tela principal
+![Tela inicial coordenador](img/main-coordenador.png)
+
+#### Relatórios gerenciais
+Oferece opções de relatórios gerenciais do estado atual do sistema que são apresentados tanto na tela como em uma planilha eletrônica.
+![Relatórios](img/relatorios.png)

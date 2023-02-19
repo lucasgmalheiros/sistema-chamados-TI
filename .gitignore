@@ -1,3 +1,5 @@
 .idea
 __pycache__
 sql_queries
+.vscode
+*.xlsx

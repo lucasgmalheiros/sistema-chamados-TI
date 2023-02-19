@@ -3,3 +3,4 @@ __pycache__
 sql_queries
 .vscode
 *.xlsx
+virtual-env

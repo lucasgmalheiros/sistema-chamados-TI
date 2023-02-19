@@ -12,7 +12,7 @@ poderiam acompanhar todas as demandas em andamento, as concluídas, e ainda atua
 o status do atendimento do chamado. O último ator do sistema é o coordenador de informática, que além das funcionalidades dos solicitantes
 ainda pode consultar relatórios contendo informações gerenciais.
 
-Todas as funcionalidades resumidas acima estão descritas no diagrama de casos de uso (DCU).
+Todas as funcionalidades resumidas acima estão descritas no diagrama de casos de uso ([DCU](https://github.com/lucasgmalheiros/sistema-chamados-TI/blob/main/DCU.png)).
 
 ## Desenvolvimento
 
